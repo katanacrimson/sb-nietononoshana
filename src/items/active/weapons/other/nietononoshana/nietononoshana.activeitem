@@ -1,0 +1,62 @@
+{
+  "itemName" : "nietononoshana",
+  "price" : 10000,
+  "level" : 8,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The legendary sword of The Flame-Haired Red-Hot-Eyed Hunter.",
+  "shortdescription" : "^Red;Nietono no Shana^reset; ^yellow;^reset;",
+  "tooltipKind" : "base",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword", "katana"],
+
+  "inventoryIcon" : "nietononoshanaicon.png",
+
+  "animation" : "/items/active/weapons/other/nietononoshana/nietononoshana.animation",
+  "animationParts" : {
+    "blade" : "blade.png",
+    "handle" : "handle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 18,
+    "damageConfig" : {
+      "statusEffects" : [ "burning" ]
+    },
+
+    "stances" : {
+      "fire1" : {
+        "duration" : 0.05
+      },
+      "wait1" : {
+        "duration" : 0.1
+      },
+      "fire2" : {
+        "duration" : 0.1
+      },
+      "wait2" : {
+        "duration" : 0.1
+      }
+    }
+  },
+
+  "altAbilityType" : "burnup",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

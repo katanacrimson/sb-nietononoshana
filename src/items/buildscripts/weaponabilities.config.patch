@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/burnup",
+    "value": "/items/active/weapons/melee/abilities/broadsword/burnup/burnup.weaponability"
+  }
+]

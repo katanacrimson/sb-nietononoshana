@@ -1,0 +1,57 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalimpact" : [ "/sfx/gun/grenadeblast_ice2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Burn Up!",
+    "type" : "burnup",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/burnup/burnup.lua"],
+    "class" : "BurnUp",
+
+    "baseDamage" : 20,
+    //"energyUsage" : 100.0,
+
+    "cooldownTime" : 3,
+
+    "projectileType" : "fireshockwave",
+    "projectileParameters" : {
+      "power" : 1,
+      "baseDamage" : 20,
+	  "statusEffects" : [ "burning" ],
+      "knockback" : 40,
+      "knockbackMode" : "facing",
+      "onlyHitTerrain" : true
+    },
+    "shockWaveBounds" : [-0.4, -1.375, 0.4, 0.0],
+    "shockwaveHeight" : 1.375,
+    "maxDistance" : 40,
+
+    "impactLine" : [ [1.25, -1.5], [1.25, -4.5] ],
+    "impactWeaponOffset" : 0.75,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.3,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
