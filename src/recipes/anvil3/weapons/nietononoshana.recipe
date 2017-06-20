@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+	// not currently available in Starbound core for normal players. we'll use scorched cores instead
+	//{ "item" : "moltencore", "count" : 1 },
+	{ "item" : "scorchedcore", "count" : 50 },
+    { "item" : "liquidlava", "count" : 50 }
+  ],
+  "output" : { "item" : "nietononoshana", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}
