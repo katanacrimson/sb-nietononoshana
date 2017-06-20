@@ -1,11 +1,11 @@
 {
   "author" : "*katana",
-  "name" : "nietononoshana",
-  "friendlyName" : "Nietono no Shana",
   "description" : "Nietono no Shana - The legendary sword of The Flame-Haired Red-Hot-Eyed Hunter.",
-  "link" : "https://github.com/damianb/sb-nietononoshana/",
+  "friendlyName" : "Nietono no Shana",
   "includes" : [],
+  "link" : "steam://url/CommunityFilePage/951516467",
+  "name" : "nietononoshana",
   "requires" : [],
-  "steamContentId" : "",
+  "steamContentId" : "951516467",
   "version" : "1.0.0"
 }
