@@ -15,12 +15,12 @@
     "baseDamage" : 20,
     //"energyUsage" : 100.0,
 
-    "cooldownTime" : 3,
+    "cooldownTime" : 4,
 
     "projectileType" : "fireshockwave",
     "projectileParameters" : {
       "power" : 1,
-      "baseDamage" : 20,
+      "baseDamage" : 40,
 	  "statusEffects" : [ "burning" ],
       "knockback" : 40,
       "knockbackMode" : "facing",
