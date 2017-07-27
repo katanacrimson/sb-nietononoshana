@@ -29,7 +29,7 @@ set BUILD_USE_PATCHBUILDER=1
 REM //
 REM // enable/disable PNG asset compression
 REM //
-set BUILD_USE_PNGSQUEEZE=1
+set BUILD_USE_PNGSQUEEZE=0
 
 REM //
 REM // enable/disable JSON validation
